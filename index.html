@@ -1,0 +1,147 @@
+<html>
+    <head>
+        <title>O-Authenticator</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+    </head>
+	
+	<style>
+	html,body,h1,h2,h3,h4{
+	font-weight:w200;
+	}
+	.root{
+	background-image: linear-gradient(to right,#000428, #6dd5ed   );	
+	opacity:0.95;
+	z-index-1;
+	
+	}
+	.back-component{
+		background-color:#fff;
+		opacity:0.89;
+		width:499px;
+		float:center;
+		padding:40px;
+		height:520px;
+		position:absolute;
+		left:330px;
+		top:130px;
+		border-radius:25px;
+		z-index:-1;
+		
+	}
+	.front-component{
+		background-color:#fff;
+		width:400px;
+		float:center;
+		padding:40px;
+		height:600px;
+		position:absolute;
+		left:380px;
+		top:90px;
+		z-index:1;
+		border-radius:25px;
+		
+	}
+	.logo{
+	width:200px;
+	height:150px;
+	margin-left:60px;
+	}
+	.head{
+	font-family:Century Gothic;
+	font-weight:bold;
+	margin-left:65px;
+	}
+	.head-text{
+	font-size:12px;
+	font-family:Century Gothic;
+	text-align:center;
+	color: #657786;
+	}
+	.btn-font{
+	font-family:Century Gothic;
+	font-size:14.0px;
+	background-color:#1DA1F2;
+	font-weight:bold;
+	
+	}
+	.powered{
+	font-family:Courier new;
+	font-size:11.5px;
+	color: #657786;
+	margin-left:110px;
+	margin-top:50px;
+	font-weight:bold;
+	}
+	.btn-shape{
+	border-radius:20px;
+	}
+	.user{
+	width:75px;
+	height:70px;
+	border-radius:800px;
+	margin-top:10px;
+	margin-left:10px;
+	}
+	.card-size{
+	height:100px;
+	margin-top:30px;
+	background-color: #F5F8FA;
+	border-radius:10px;
+	opacity:0.8;
+	}
+	.name{
+		font-family:Century Gothic;
+		font-size:16.5px;
+		margin-top:10px;
+		font-weight:bold;
+	}
+	.verify{
+	font-family:Century Gothic;
+		font-size:11px;
+		
+	}
+	</style>
+	
+    <body class="root">
+       <div class="container ">
+	   <div class="row">
+	   
+		<div class="col-md-12">
+		<div class="back-component"></div>
+		<div class="front-component">
+		<img src="img/logo.gif" class="logo" alt="logo"/>
+		<h3 class="head">O-Authenticator</h3>
+		<p class="head-text">Protect Your Account in Just a Few Minutes<br> By Reviewing Your Security Settings<br> and Activity.</p>
+		<form >
+		<br>
+		<button type="button" class="form-control btn btn-primary btn-font btn-shape">Authenticate Account</button>
+		</form>
+		<div class="card card-size">
+		<div class="container">
+		<div class="row">
+		
+		<div class="col-md-4">
+		<img src="img/images.png" class="user" alt="image"/>
+		</div>
+		<div class="col-md-8">
+		<h4 class="name">Jonathan Doe</h4>
+		<p class="verify">Account Not Protected!!<br>Protect Your Account in Just a Few Minutes.</p>
+		</div>
+		</div>
+		</div>
+		<h5 class="powered">Powered By Fire</h5>
+		</div>
+
+		</div>
+	   
+	  
+	   
+	   </div>
+	   </div>
+    </body>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</html>
